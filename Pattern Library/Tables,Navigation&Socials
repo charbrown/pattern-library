@@ -1,0 +1,211 @@
+/*---Navigation HTML-----*/
+<nav>
+  <ul>
+    <li><a href=""</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+</nav>
+
+/*-----Top bar Navigation styling css------*/
+nav {
+  position: fixed;
+  top: 0;
+  left:0;
+  margin:0;
+  width: 100%;
+  background-color:;
+  padding: ;
+  font-size:;
+  }
+
+nav ul {
+  text-align: ;
+  text-transform: ;
+  letter-spacing: ;
+}
+
+nav ul li {
+  display: ;
+  margin: ;
+  }
+
+nav a:link {
+  color:;
+  }
+
+  nav a:visited {
+    color:;
+  }
+
+nav a:hover{
+  background-bottom:;
+  color:;
+
+  /*----- Side navigation bar styling-------*/
+  nav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:;
+    overflow-x: hidden;
+    padding-top: 20px;
+    opacity: 0.7;
+  }
+
+  nav li a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color:;
+    display: block;
+    margin-bottom: 25px;
+    color:;
+
+  }
+
+  nav a:link {
+    color:;
+    }
+
+    nav a:visited {
+      color: ;
+    }
+
+  nav a:hover{
+    border-bottom: none;
+    color:;
+  }
+
+  main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+
+
+/*----Inserting an image HTML-----*/
+
+<img id="whatever you want to clal it " src="foldername/filename"
+alt="description of image "/>
+
+/*------Inserting a table HTML------*/
+<table>
+ <Caption> </caption>
+
+ <tr>
+  <th>....</th>
+  <th>....</th>
+  <th>....</th>
+</tr>
+
+<tr>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+</tr>
+
+<tr>
+  <td>.....</td>
+  <td>.....</td>
+</tr>
+
+<tr>
+  <td>.....</td>
+  <td>.....</td>
+</tr>
+
+<tr>
+  <td>.....</td>
+  <td>.....</td>
+</tr>
+
+ </table>
+
+ /*----Basic table styling css-----*/
+
+ table {
+   margin: auto;
+   display: table;
+   border-collapse: collapse;
+   border-spacing: 2px;
+   margin-bottom: 2em;
+   width: 100%;
+ }
+
+ caption {
+   margin-bottom:;
+   text-transform:;
+ }
+
+ th {
+   color:;
+   text-transform: uppercase;
+   font-weight:;
+   text-align:;
+   background:;
+ }
+
+ th, td {
+   padding: 0.5em;
+ }
+
+ table, td {
+   background:;
+   border:;
+ }
+
+ /*----Social media icons HTML------*/
+
+ <footer>
+
+  <ul class="connections">
+
+  <li id="socials"><a href="mailto:charlottebrown.1621@gmail.com"><img id="email" src="images/email.jpg"
+      alt="Send me an email"/></a></li>
+
+  <li><a href="http://www.csa-brown.tumblr.com"><img id="tumblr" src="images/tumblr.jpg"
+      alt="check out my tumblr"/></a></li>
+
+  <li><a href="http://www.instagram.com/ixdchar"><img id="instagram" src="images/instagram.jpg"
+      alt="check out my instagram"></a></li>
+
+</footer>
+
+/*-----Basic Icon Styling css------*/
+.connnections {
+  position: relative;
+  margin: 0 auto;
+}
+
+.connections ul {
+  margin: 0;
+  padding: 0;
+}
+
+.connections li {
+  margin: 0 15px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.connections a:link {
+  border-bottom: none;
+}
+
+.connections img{
+  opacity: 0.5;
+  border: none;
+  text-align: center
+}
+
+.connections a:hover img{
+  opacity: 1.0;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+}
